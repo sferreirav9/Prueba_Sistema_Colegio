@@ -12,8 +12,9 @@ Pre Requisitos
 Instalación
 
 1. Se debe ejecutar el backup de la base de datos anexado 
-2. Realizar la conexión con la base de datos y el proyecto por medio de Linq to SQL
-3. Ejecutar el proyecto
+2. Clonar el proyecto 
+3. Ingresar al Modelo, opción "Orm.dbml" eliminar las tablas existentes, ingresar al  Exploradores de Servidores, seleccionar la base de datos y arrastrar las tablas.
+4. Ejecutar el index.aspx 
 
 Construido 
 
