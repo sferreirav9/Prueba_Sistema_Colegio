@@ -168,6 +168,13 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="vistas\Profesor\CrudCalificaciones.aspx.cs">
+      <DependentUpon>CrudCalificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Profesor\CrudCalificaciones.aspx.designer.cs">
+      <DependentUpon>CrudCalificaciones.aspx</DependentUpon>
+    </Compile>
     <Compile Include="vistas\Profesor\CrudProfesores.aspx.cs">
       <DependentUpon>CrudProfesores.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -225,6 +232,7 @@
     <Content Include="vistas\Alumno\RegistrarAlumno.aspx" />
     <Content Include="vistas\Alumno\RegistroMaterias.aspx" />
     <Content Include="Index.aspx" />
+    <Content Include="vistas\Profesor\CrudCalificaciones.aspx" />
     <Content Include="vistas\Profesor\CrudProfesores.aspx" />
     <Content Include="vistas\Profesor\Profesores.aspx" />
     <Content Include="vistas\Profesor\RegistroCalificacion.aspx" />

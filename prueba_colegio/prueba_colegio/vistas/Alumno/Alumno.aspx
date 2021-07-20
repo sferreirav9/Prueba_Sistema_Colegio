@@ -77,7 +77,7 @@
     <!--/.sidebar-->
 
     <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
-        <iframe style="height: 100vh; width:100%;" src="CrudProfesores.aspx" frameborder="0" name="principal">
+        <iframe style="height: 100vh; width:100%;" src="CrudAlumno.aspx" frameborder="0" name="principal">
 			
 		</iframe>
 

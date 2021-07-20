@@ -25,6 +25,14 @@ namespace prueba_colegio
             profesoresDto.Correo = txtCorreo.Text;
             profesoresDto.Clave = txtClave.Text;
             profesoresDao.RegistrarProfesor(profesoresDto);
+            txtIdentiProfe.Text = string.Empty;
+            txtNombre.Text = string.Empty;
+            txtApellido.Text = string.Empty;
+            txtEdad.Text = string.Empty;
+            txtDireccion.Text = string.Empty;
+            txtTelefono.Text = string.Empty;
+            txtCorreo.Text = string.Empty;
+            txtClave.Text = string.Empty;
         }
 
      

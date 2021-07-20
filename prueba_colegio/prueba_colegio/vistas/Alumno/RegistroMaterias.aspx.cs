@@ -29,6 +29,8 @@ namespace prueba_colegio
             materiaDto.NombreMate = txtNombreMate.Text;
             materiaDto.profesores_IdentiProfe = int.Parse(ddlProfesor.SelectedValue.ToString()); ;
             materiaDao.RegistrarMateria(materiaDto);
+            TxtCodiMateria.Text = string.Empty;
+            txtNombreMate.Text = string.Empty;
         }
 
     }
