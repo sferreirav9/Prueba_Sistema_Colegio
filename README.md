@@ -9,12 +9,15 @@ Pre Requisitos
 3. conexión del proyecto con la base de datos por medio de Linq to SQL
 
 
-Instalación
+Instalación Proyecto 
 
-1. Se debe ejecutar el backup de la base de datos anexado 
-2. Clonar el proyecto 
-3. Ingresar al Modelo, opción "Orm.dbml" eliminar las tablas existentes, ingresar al  Exploradores de Servidores, seleccionar la base de datos y arrastrar las tablas.
+1. Se debe ejecutar el backup colegio.bak que esta anexado  en el main 
+2. Clonar el proyecto  prueba colegio
+3. Ingresar a la carpeta Modelo, opción "Orm.dbml" eliminar las tablas existentes, ingresar al  Exploradores de Servidores, seleccionar la base de datos y arrastrar las tablas.
 4. Ejecutar el index.aspx 
+
+Ejecución Procedimiento almacenado 
+1. Se debe ejecutar el archivo .sql que está en el MAIN  Creacion_Procedimiento_Leer_XML  y luego ejecutar el archivo .sql EXEC_LeerXml.
 
 Construido 
 
@@ -25,6 +28,6 @@ Construido
 
 Autor 
 
-Stefania Ferreira Villanueva - Desarrollo del Software
+Stefania Ferreira Villanueva - Desarrollo de Software
 
 
