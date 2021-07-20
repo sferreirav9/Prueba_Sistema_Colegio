@@ -126,6 +126,76 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vistas\Alumno\Alumno.aspx.cs">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Alumno\Alumno.aspx.designer.cs">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Alumno\CrudAlumno.aspx.cs">
+      <DependentUpon>CrudAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Alumno\CrudAlumno.aspx.designer.cs">
+      <DependentUpon>CrudAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Alumno\CrudMateria.aspx.cs">
+      <DependentUpon>CrudMateria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Alumno\CrudMateria.aspx.designer.cs">
+      <DependentUpon>CrudMateria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Alumno\RegistrarAlumno.aspx.cs">
+      <DependentUpon>RegistrarAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Alumno\RegistrarAlumno.aspx.designer.cs">
+      <DependentUpon>RegistrarAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Alumno\RegistroMaterias.aspx.cs">
+      <DependentUpon>RegistroMaterias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Alumno\RegistroMaterias.aspx.designer.cs">
+      <DependentUpon>RegistroMaterias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Profesor\CrudProfesores.aspx.cs">
+      <DependentUpon>CrudProfesores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Profesor\CrudProfesores.aspx.designer.cs">
+      <DependentUpon>CrudProfesores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Profesor\Profesores.aspx.cs">
+      <DependentUpon>Profesores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Profesor\Profesores.aspx.designer.cs">
+      <DependentUpon>Profesores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Profesor\RegistroCalificacion.aspx.cs">
+      <DependentUpon>RegistroCalificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Profesor\RegistroCalificacion.aspx.designer.cs">
+      <DependentUpon>RegistroCalificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\Profesor\RegistroProfesor.aspx.cs">
+      <DependentUpon>RegistroProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\Profesor\RegistroProfesor.aspx.designer.cs">
+      <DependentUpon>RegistroProfesor.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -149,6 +219,71 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="vistas\Alumno\Alumno.aspx" />
+    <Content Include="vistas\Alumno\CrudAlumno.aspx" />
+    <Content Include="vistas\Alumno\CrudMateria.aspx" />
+    <Content Include="vistas\Alumno\RegistrarAlumno.aspx" />
+    <Content Include="vistas\Alumno\RegistroMaterias.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="vistas\Profesor\CrudProfesores.aspx" />
+    <Content Include="vistas\Profesor\Profesores.aspx" />
+    <Content Include="vistas\Profesor\RegistroCalificacion.aspx" />
+    <Content Include="vistas\Profesor\RegistroProfesor.aspx" />
+    <Content Include="resource\css\bootstrap-grid.min.css" />
+    <Content Include="resource\css\bootstrap-reboot.min.css" />
+    <Content Include="resource\css\bootstrap.min.css" />
+    <Content Include="resource\css\datepicker3.css" />
+    <Content Include="resource\css\estilos.css" />
+    <Content Include="resource\css\estilos\css\bootstrap-table.css" />
+    <Content Include="resource\css\estilos\css\bootstrap-theme.css" />
+    <Content Include="resource\css\estilos\css\bootstrap-theme.min.css" />
+    <Content Include="resource\css\estilos\css\bootstrap.css" />
+    <Content Include="resource\css\estilos\css\bootstrap.min.css" />
+    <Content Include="resource\css\estilos\css\datepicker.css" />
+    <Content Include="resource\css\estilos\css\datepicker3.css" />
+    <Content Include="resource\css\estilos\css\font-awesome.min.css" />
+    <Content Include="resource\css\estilos\css\styles.css" />
+    <Content Include="resource\css\estilos\fonts\fontawesome-webfont.svg" />
+    <Content Include="resource\css\estilos\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="resource\css\estilos\js\bootstrap-datepicker.js" />
+    <Content Include="resource\css\estilos\js\bootstrap.js" />
+    <Content Include="resource\css\estilos\js\bootstrap.min.js" />
+    <Content Include="resource\css\estilos\js\chart-data.js" />
+    <Content Include="resource\css\estilos\js\chart.min.js" />
+    <Content Include="resource\css\estilos\js\custom.js" />
+    <Content Include="resource\css\estilos\js\easypiechart-data.js" />
+    <Content Include="resource\css\estilos\js\easypiechart.js" />
+    <Content Include="resource\css\estilos\js\html5shiv.min.js" />
+    <Content Include="resource\css\estilos\js\jquery-1.11.1.min.js" />
+    <Content Include="resource\css\estilos\js\lumino.glyphs.js" />
+    <Content Include="resource\css\estilos\js\npm.js" />
+    <Content Include="resource\css\estilos\js\respond.min.js" />
+    <Content Include="resource\css\font-awesome.min.css" />
+    <Content Include="resource\css\ie8.css" />
+    <Content Include="resource\css\ie9.css" />
+    <Content Include="resource\css\images\arrow.svg" />
+    <Content Include="resource\css\images\bars.svg" />
+    <Content Include="resource\css\images\close.svg" />
+    <Content Include="resource\css\main.css" />
+    <Content Include="resource\css\styles.css" />
+    <Content Include="resource\fonts\fontawesome-webfont.svg" />
+    <Content Include="resource\img\colegio.jpg" />
+    <Content Include="resource\img\editar.png" />
+    <Content Include="resource\img\eliminar.png" />
+    <Content Include="resource\js\bootstrap-datepicker.js" />
+    <Content Include="resource\js\bootstrap.bundle.min.js" />
+    <Content Include="resource\js\bootstrap.min.js" />
+    <Content Include="resource\js\custom.js" />
+    <Content Include="resource\js\ie\backgroundsize.min.htc" />
+    <Content Include="resource\js\ie\html5shiv.js" />
+    <Content Include="resource\js\ie\respond.min.js" />
+    <Content Include="resource\js\jquery-1.11.1.min.js" />
+    <Content Include="resource\js\jquery.min.js" />
+    <Content Include="resource\js\jquery.scrollex.min.js" />
+    <Content Include="resource\js\jquery.scrolly.min.js" />
+    <Content Include="resource\js\main.js" />
+    <Content Include="resource\js\skel.min.js" />
+    <Content Include="resource\js\util.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -158,11 +293,24 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="resource\css\estilos\css\bootstrap-theme.css.map" />
+    <Content Include="resource\css\estilos\css\bootstrap-theme.min.css.map" />
+    <Content Include="resource\css\estilos\css\bootstrap.css.map" />
+    <Content Include="resource\css\estilos\css\bootstrap.min.css.map" />
+    <Content Include="resource\css\estilos\fonts\fontawesome-webfont.eot" />
+    <Content Include="resource\css\estilos\fonts\fontawesome-webfont.ttf" />
+    <Content Include="resource\css\estilos\fonts\fontawesome-webfont.woff" />
+    <Content Include="resource\css\estilos\fonts\fontawesome-webfont.woff2" />
+    <Content Include="resource\css\estilos\fonts\FontAwesome.otf" />
+    <Content Include="resource\css\estilos\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="resource\css\estilos\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="resource\css\estilos\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="resource\css\estilos\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="resource\fonts\fontawesome-webfont.eot" />
+    <Content Include="resource\fonts\fontawesome-webfont.ttf" />
+    <Content Include="resource\fonts\fontawesome-webfont.woff" />
+    <Content Include="resource\fonts\fontawesome-webfont.woff2" />
+    <Content Include="resource\fonts\FontAwesome.otf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -183,6 +331,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{7C63EAC6-AF6D-40CA-804E-B333F0A740D2}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

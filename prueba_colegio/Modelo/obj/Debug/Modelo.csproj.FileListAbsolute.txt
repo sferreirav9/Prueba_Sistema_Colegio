@@ -1,0 +1,7 @@
+C:\Users\stefy\OneDrive\Documentos\prueba_sincosoft\prueba_colegio\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\stefy\OneDrive\Documentos\prueba_sincosoft\prueba_colegio\Modelo\bin\Debug\Modelo.dll
+C:\Users\stefy\OneDrive\Documentos\prueba_sincosoft\prueba_colegio\Modelo\bin\Debug\Modelo.pdb
+C:\Users\stefy\OneDrive\Documentos\prueba_sincosoft\prueba_colegio\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\stefy\OneDrive\Documentos\prueba_sincosoft\prueba_colegio\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\stefy\OneDrive\Documentos\prueba_sincosoft\prueba_colegio\Modelo\obj\Debug\Modelo.dll
+C:\Users\stefy\OneDrive\Documentos\prueba_sincosoft\prueba_colegio\Modelo\obj\Debug\Modelo.pdb
